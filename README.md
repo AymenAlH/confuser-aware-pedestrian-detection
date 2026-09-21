@@ -176,6 +176,10 @@ Full training curves and confusion matrices are in each `runs/train/*` folder.
 - Cityscapes is all European cities, and the statue data doesn't cover much variety. Confusers that look nothing like the training data still get through.
 - Some Human-Art cosplay images show real people dressed as statues and are labeled `person-like`. That's likely why real-pedestrian braking drops slightly.
 
+## Acknowledgements
+
+I sincerely thank my supervisor, Alexandre dos Santos Roque, for guidance, technical insight, and continuous support throughout this project.
+
 ## Licence
 
 The `YOLOv5/` folder is Ultralytics code under AGPL-3.0 (see `YOLOv5/LICENSE`), and YOLO11 is used through the `ultralytics` package, which is also AGPL-3.0. Each dataset has its own terms, listed above.
